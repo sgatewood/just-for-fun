@@ -27,9 +27,9 @@ check-the-weather *args:
 # warm fire
 [group('fun')]
 cacafire *args:
-    cacafire {{args}}
+    cacafire {{ args }}
 
 # view an image in ascii
 [group('fun')]
 cacaview *args:
-    cacaview {{args}}
+    cacaview {{ args }}
