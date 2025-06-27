@@ -1,7 +1,11 @@
 { pkgs }:
 pkgs.mkShell {
   packages = with pkgs; [
-    just
+    asciiquarium
+    cowsay
     fzf
+    just
+    lolcat
+    sl
   ];
 }

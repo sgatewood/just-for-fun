@@ -1,3 +1,15 @@
+asciiquarium:
+  changelog: unknown
+  description: Enjoy the mysteries of the sea from the safety of your own terminal!
+  homepage: https://robobunny.com/projects/asciiquarium/html/
+  name: asciiquarium-1.1
+  version: "1.1"
+cowsay:
+  changelog: https://github.com/cowsay-org/cowsay/releases/tag/v3.8.4
+  description: Program which generates ASCII pictures of a cow with a message
+  homepage: https://cowsay.diamonds
+  name: cowsay-3.8.4
+  version: 3.8.4
 fzf:
   changelog: https://github.com/junegunn/fzf/blob/v0.62.0/CHANGELOG.md
   description: Command-line fuzzy finder written in Go
@@ -10,3 +22,15 @@ just:
   homepage: https://github.com/casey/just
   name: just-1.40.0
   version: 1.40.0
+lolcat:
+  changelog: unknown
+  description: Rainbow version of cat
+  homepage: https://github.com/busyloop/lolcat
+  name: lolcat-100.0.1
+  version: 100.0.1
+sl:
+  changelog: unknown
+  description: Steam Locomotive runs across your terminal when you type 'sl'
+  homepage: http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html
+  name: sl-5.05
+  version: "5.05"
