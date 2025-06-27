@@ -1,13 +1,9 @@
+import 'just/combos.just'
+import 'just/dynamic-generator.just'
+import 'just/dynamic-generator-result.just'
+import 'just/nix.just'
+
 help:
-    @just -l
+  @just -l
 
-nix-check:
-    nix flake check
 
-nix-check-update:
-    nix fmt
-    nix run .#pkgVersionSnapshotTestUpdate
-
-nix-flake-update:
-    nix flake update --commit-lock-file
-    just nix-check-update
