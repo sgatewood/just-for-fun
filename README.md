@@ -1,4 +1,4 @@
-# `just` for fun
+# 🎪 `just` for fun 🎪
 
 A (WIP) repo compiling some fun things under a [`justfile`](https://just.systems/man/en/) interface
 
