@@ -18,3 +18,8 @@ toilet-demo *args:
       echo "{{ YELLOW }}${font}{{ NORMAL }}"
       toilet --termwidth -F metal -f "${font}" "${font}" $@
     done
+
+# curl wttr.in
+[group('fun-combos')]
+check-the-weather *args:
+    curl wttr.in/{{args}}

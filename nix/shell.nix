@@ -4,6 +4,7 @@ pkgs.mkShell {
     asciiquarium
     cowsay
     cmatrix
+    curl
     docker
     figlet
     fzf
