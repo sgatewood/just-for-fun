@@ -1,0 +1,12 @@
+fzf:
+  changelog: https://github.com/junegunn/fzf/blob/v0.62.0/CHANGELOG.md
+  description: Command-line fuzzy finder written in Go
+  homepage: https://github.com/junegunn/fzf
+  name: fzf-0.62.0
+  version: 0.62.0
+just:
+  changelog: https://github.com/casey/just/blob/1.40.0/CHANGELOG.md
+  description: Handy way to save and run project-specific commands
+  homepage: https://github.com/casey/just
+  name: just-1.40.0
+  version: 1.40.0
