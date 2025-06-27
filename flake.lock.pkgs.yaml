@@ -112,6 +112,12 @@ toilet:
   homepage: http://caca.zoy.org/wiki/toilet
   name: toilet-0.3
   version: "0.3"
+typespeed:
+  changelog: unknown
+  description: Curses based typing game
+  homepage: https://typespeed.sourceforge.net/
+  name: typespeed-0.6.5
+  version: 0.6.5
 yq:
   changelog: https://github.com/mikefarah/yq/raw/v4.45.4/release_notes.txt
   description: Portable command-line YAML processor

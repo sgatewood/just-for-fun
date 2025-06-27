@@ -63,3 +63,8 @@ sl *args:
 toilet *args:
     @toilet $@
 
+# Curses based typing game
+[group('fun')]
+typespeed *args:
+    @typespeed $@
+

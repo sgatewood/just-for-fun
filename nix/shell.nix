@@ -20,6 +20,7 @@ pkgs.mkShell {
     nyancat
     sl
     toilet
+    typespeed
     yq-go
   ];
 }
