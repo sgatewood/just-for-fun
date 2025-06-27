@@ -23,6 +23,11 @@ figlet *args:
 lolcat *args:
     @lolcat $@
 
+# Simple character graphics game where you drive some kind of car across the moon's surface
+[group('fun')]
+moon-buggy *args:
+    @moon-buggy $@
+
 # Space Invaders clone based on ncurses
 [group('fun')]
 ninvaders *args:

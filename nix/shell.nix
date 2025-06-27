@@ -11,6 +11,7 @@ pkgs.mkShell {
     just
     lolcat
     pipes
+    moon-buggy
     ninvaders
     nyancat
     sl

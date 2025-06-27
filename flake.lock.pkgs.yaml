@@ -52,6 +52,12 @@ lolcat:
   homepage: https://github.com/busyloop/lolcat
   name: lolcat-100.0.1
   version: 100.0.1
+moon-buggy:
+  changelog: unknown
+  description: Simple character graphics game where you drive some kind of car across the moon's surface
+  homepage: https://www.seehuhn.de/pages/moon-buggy
+  name: moon-buggy-1.0.51
+  version: 1.0.51
 ninvaders:
   changelog: unknown
   description: Space Invaders clone based on ncurses
