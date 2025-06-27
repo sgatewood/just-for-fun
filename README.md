@@ -2,7 +2,7 @@
 
 A (WIP) repo compiling some fun things under a [`justfile`](https://just.systems/man/en/) interface
 
-All batteries [included](nix/shell.nix), thanks to nix ❤️
+All batteries [included](nix/shell.nix) (well, except for `direnv` and `nix`...)
 
 ![demo](assets/demo.gif)
 
