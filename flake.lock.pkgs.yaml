@@ -10,6 +10,12 @@ cowsay:
   homepage: https://cowsay.diamonds
   name: cowsay-3.8.4
   version: 3.8.4
+figlet:
+  changelog: unknown
+  description: Program for making large letters out of ordinary text
+  homepage: http://www.figlet.org/
+  name: figlet-2.2.5
+  version: 2.2.5
 fzf:
   changelog: https://github.com/junegunn/fzf/blob/v0.62.0/CHANGELOG.md
   description: Command-line fuzzy finder written in Go
@@ -40,6 +46,12 @@ sl:
   homepage: http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html
   name: sl-5.05
   version: "5.05"
+toilet:
+  changelog: unknown
+  description: Display large colourful characters in text mode
+  homepage: http://caca.zoy.org/wiki/toilet
+  name: toilet-0.3
+  version: "0.3"
 yq:
   changelog: https://github.com/mikefarah/yq/raw/v4.45.4/release_notes.txt
   description: Portable command-line YAML processor
