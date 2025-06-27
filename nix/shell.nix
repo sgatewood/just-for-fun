@@ -1,6 +1,7 @@
 { pkgs }:
 pkgs.mkShell {
   packages = with pkgs; [
+    _2048-in-terminal
     asciiquarium
     cowsay
     cmatrix

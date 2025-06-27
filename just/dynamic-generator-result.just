@@ -1,3 +1,8 @@
+# Animated console version of the 2048 game
+[group('fun')]
+game-2048 *args:
+    @2048-in-terminal $@
+
 # Enjoy the mysteries of the sea from the safety of your own terminal!
 [group('fun')]
 asciiquarium *args:

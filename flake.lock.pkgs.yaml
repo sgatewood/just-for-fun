@@ -1,3 +1,9 @@
+2048-in-terminal:
+  changelog: unknown
+  description: Animated console version of the 2048 game
+  homepage: https://github.com/alewmoose/2048-in-terminal
+  name: 2048-in-terminal-unstable-2022-06-13
+  version: unstable-2022-06-13
 asciiquarium:
   changelog: unknown
   description: Enjoy the mysteries of the sea from the safety of your own terminal!

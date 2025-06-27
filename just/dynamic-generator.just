@@ -6,7 +6,8 @@ get-dynamic-justfile-code:
     pkgs=$(yq -o json "${REPO_ROOT}/flake.lock.pkgs.yaml")
     cmds=$(jq -re 'keys[]' <<< "${pkgs}")
     for cmd in ${cmds}; do
-      actual_pkg_name="${cmd}"
+      pkg_name="${cmd}"
+      just_recipe_name="${cmd}"
 
       # omit non-fun cmds
       case "${cmd}" in
@@ -15,15 +16,18 @@ get-dynamic-justfile-code:
           ;;
         ponysay*)
           # TODO: find a better solution for this
-          cmd=ponysay
+          cmd='ponysay'
+          just_recipe_name='ponysay'
           ;;
+        2048-in-terminal)
+          just_recipe_name="game-2048"
       esac
 
-      info=$(jq -re --arg pkg "${actual_pkg_name}" '.[$pkg]' <<< "${pkgs}")
+      info=$(jq -re --arg pkg "${pkg_name}" '.[$pkg]' <<< "${pkgs}")
       description=$(jq -re '.description' <<< "${info}")
       echo "# ${description}"
       echo "[group('fun')]"
-      echo "${cmd//./_} *args:"
+      echo "${just_recipe_name//./_} *args:"
       echo "    @${cmd} \$@"
       echo
     done
