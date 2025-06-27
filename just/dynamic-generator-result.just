@@ -23,6 +23,11 @@ figlet *args:
 lolcat *args:
     @lolcat $@
 
+# Space Invaders clone based on ncurses
+[group('fun')]
+ninvaders *args:
+    @ninvaders $@
+
 # Nyancat in your terminal, rendered through ANSI escape sequences
 [group('fun')]
 nyancat *args:

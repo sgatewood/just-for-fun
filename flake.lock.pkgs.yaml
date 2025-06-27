@@ -16,6 +16,12 @@ cowsay:
   homepage: https://cowsay.diamonds
   name: cowsay-3.8.4
   version: 3.8.4
+docker:
+  changelog: unknown
+  description: Open source project to pack, ship and run any application as a lightweight container
+  homepage: https://www.docker.com/
+  name: docker-28.2.2
+  version: 28.2.2
 figlet:
   changelog: unknown
   description: Program for making large letters out of ordinary text
@@ -46,6 +52,12 @@ lolcat:
   homepage: https://github.com/busyloop/lolcat
   name: lolcat-100.0.1
   version: 100.0.1
+ninvaders:
+  changelog: unknown
+  description: Space Invaders clone based on ncurses
+  homepage: https://ninvaders.sourceforge.net/
+  name: ninvaders-0.1.2
+  version: 0.1.2
 nyancat:
   changelog: unknown
   description: Nyancat in your terminal, rendered through ANSI escape sequences

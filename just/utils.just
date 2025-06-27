@@ -20,4 +20,4 @@ inspect *tools:
 # try any nix package in docker
 [group('utils')]
 try pkg:
-  docker run -it --rm "nixery.dev/shell/${pkg}"
+    docker run -it --rm "nixery.dev/shell/${pkg}"
