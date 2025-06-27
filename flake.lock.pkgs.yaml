@@ -46,6 +46,12 @@ lolcat:
   homepage: https://github.com/busyloop/lolcat
   name: lolcat-100.0.1
   version: 100.0.1
+nyancat:
+  changelog: unknown
+  description: Nyancat in your terminal, rendered through ANSI escape sequences
+  homepage: https://nyancat.dakko.us
+  name: nyancat-1.5.2
+  version: 1.5.2
 sl:
   changelog: unknown
   description: Steam Locomotive runs across your terminal when you type 'sl'

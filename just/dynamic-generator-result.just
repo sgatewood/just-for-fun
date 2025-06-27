@@ -23,6 +23,11 @@ figlet *args:
 lolcat *args:
     @lolcat $@
 
+# Nyancat in your terminal, rendered through ANSI escape sequences
+[group('fun')]
+nyancat *args:
+    @nyancat $@
+
 # Steam Locomotive runs across your terminal when you type 'sl'
 [group('fun')]
 sl *args:
