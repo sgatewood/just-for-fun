@@ -3,6 +3,7 @@ pkgs.mkShell {
   packages = with pkgs; [
     asciiquarium
     cowsay
+    cmatrix
     figlet
     fzf
     jq

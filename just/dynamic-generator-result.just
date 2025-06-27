@@ -3,6 +3,11 @@
 asciiquarium *args:
     @asciiquarium $@
 
+# Simulates the falling characters theme from The Matrix movie
+[group('fun')]
+cmatrix *args:
+    @cmatrix $@
+
 # Program which generates ASCII pictures of a cow with a message
 [group('fun')]
 cowsay *args:

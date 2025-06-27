@@ -15,6 +15,6 @@ toilet-demo *args:
 
     for font in "${toilet_root_dir}"/*; do
       font=$(basename "${font}")
-      echo "{{YELLOW}}${font}{{NORMAL}}"
+      echo "{{ YELLOW }}${font}{{ NORMAL }}"
       toilet --termwidth -F metal -f "${font}" "${font}" $@
     done

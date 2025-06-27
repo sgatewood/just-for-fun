@@ -4,6 +4,12 @@ asciiquarium:
   homepage: https://robobunny.com/projects/asciiquarium/html/
   name: asciiquarium-1.1
   version: "1.1"
+cmatrix:
+  changelog: https://github.com/abishekvashok/cmatrix/releases/tag/v2.0
+  description: Simulates the falling characters theme from The Matrix movie
+  homepage: https://github.com/abishekvashok/cmatrix
+  name: cmatrix-2.0
+  version: "2.0"
 cowsay:
   changelog: https://github.com/cowsay-org/cowsay/releases/tag/v3.8.4
   description: Program which generates ASCII pictures of a cow with a message
