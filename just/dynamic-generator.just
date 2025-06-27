@@ -9,7 +9,7 @@ get-dynamic-justfile-code:
 
       # omit non-fun cmds
       case "${cmd}" in
-        "just"|"fzf"|"yq"|"jq")
+        "just"|"fzf"|"yq"|"jq"|"docker")
           continue
           ;;
       esac

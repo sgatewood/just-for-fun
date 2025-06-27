@@ -1,4 +1,5 @@
 set positional-arguments
+set export
 
 import 'just/combos.just'
 import 'just/dynamic-generator.just'

@@ -16,3 +16,8 @@ inspect *tools:
       info=$(jq -re --arg cmd "${cmd}" '.[$cmd]' <<< "${pkgs}")
       yq -P <<< "${info}"
     done
+
+# try any nix package in docker
+[group('utils')]
+try pkg:
+  docker run -it --rm "nixery.dev/shell/${pkg}"
