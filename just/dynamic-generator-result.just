@@ -28,6 +28,11 @@ lolcat *args:
 nyancat *args:
     @nyancat $@
 
+# Animated pipes terminal screensaver
+[group('fun')]
+pipes_sh *args:
+    @pipes.sh $@
+
 # Steam Locomotive runs across your terminal when you type 'sl'
 [group('fun')]
 sl *args:

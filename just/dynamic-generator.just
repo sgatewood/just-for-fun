@@ -18,7 +18,7 @@ get-dynamic-justfile-code:
       description=$(jq -re '.description' <<< "${info}")
       echo "# ${description}"
       echo "[group('fun')]"
-      echo "${cmd} *args:"
+      echo "${cmd//./_} *args:"
       echo "    @${cmd} \$@"
       echo
     done

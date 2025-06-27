@@ -52,6 +52,12 @@ nyancat:
   homepage: https://nyancat.dakko.us
   name: nyancat-1.5.2
   version: 1.5.2
+pipes.sh:
+  changelog: unknown
+  description: Animated pipes terminal screensaver
+  homepage: https://github.com/pipeseroni/pipes.sh
+  name: pipes-1.3.0
+  version: 1.3.0
 sl:
   changelog: unknown
   description: Steam Locomotive runs across your terminal when you type 'sl'

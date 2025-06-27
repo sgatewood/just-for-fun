@@ -9,6 +9,7 @@ pkgs.mkShell {
     jq
     just
     lolcat
+    pipes
     nyancat
     sl
     toilet
