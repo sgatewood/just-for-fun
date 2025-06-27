@@ -11,7 +11,7 @@ get-dynamic-justfile-code:
 
       # omit non-fun cmds
       case "${cmd}" in
-        just|fzf|yq|jq|docker|curl)
+        just|fzf|yq|jq|docker|curl|libcaca*)
           continue
           ;;
         ponysay*)
@@ -21,6 +21,7 @@ get-dynamic-justfile-code:
           ;;
         2048-in-terminal)
           just_recipe_name="game-2048"
+          ;;
       esac
 
       info=$(jq -re --arg pkg "${pkg_name}" '.[$pkg]' <<< "${pkgs}")

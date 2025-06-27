@@ -11,6 +11,7 @@ pkgs.mkShell {
     fzf
     jq
     just
+    libcaca
     lolcat
     pipes
     ponysay

@@ -58,6 +58,12 @@ just:
   homepage: https://github.com/casey/just
   name: just-1.40.0
   version: 1.40.0
+libcaca-0.99.beta20:
+  changelog: unknown
+  description: Graphics library that outputs text instead of pixels
+  homepage: http://caca.zoy.org/wiki/libcaca
+  name: libcaca-0.99.beta20
+  version: 0.99.beta20
 lolcat:
   changelog: unknown
   description: Rainbow version of cat

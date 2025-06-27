@@ -23,3 +23,13 @@ toilet-demo *args:
 [group('fun-combos')]
 check-the-weather *args:
     curl wttr.in/{{ args }}
+
+# warm fire
+[group('fun-combos')]
+cacafire *args:
+    cacafire {{args}}
+
+# view an image in ascii
+[group('fun-combos')]
+cacaview *args:
+    cacaview {{args}}
