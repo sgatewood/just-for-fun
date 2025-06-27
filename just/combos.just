@@ -25,11 +25,11 @@ check-the-weather *args:
     curl wttr.in/{{ args }}
 
 # warm fire
-[group('fun-combos')]
+[group('fun')]
 cacafire *args:
     cacafire {{args}}
 
 # view an image in ascii
-[group('fun-combos')]
+[group('fun')]
 cacaview *args:
     cacaview {{args}}
