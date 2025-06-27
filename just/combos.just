@@ -22,4 +22,4 @@ toilet-demo *args:
 # curl wttr.in
 [group('fun-combos')]
 check-the-weather *args:
-    curl wttr.in/{{args}}
+    curl wttr.in/{{ args }}

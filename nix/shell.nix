@@ -12,6 +12,7 @@ pkgs.mkShell {
     just
     lolcat
     pipes
+    ponysay
     moon-buggy
     ninvaders
     nyancat

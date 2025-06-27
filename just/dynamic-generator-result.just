@@ -43,6 +43,11 @@ nyancat *args:
 pipes_sh *args:
     @pipes.sh $@
 
+# Cowsay reimplemention for ponies
+[group('fun')]
+ponysay *args:
+    @ponysay $@
+
 # Steam Locomotive runs across your terminal when you type 'sl'
 [group('fun')]
 sl *args:

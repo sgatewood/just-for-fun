@@ -6,15 +6,20 @@ get-dynamic-justfile-code:
     pkgs=$(yq -o json "${REPO_ROOT}/flake.lock.pkgs.yaml")
     cmds=$(jq -re 'keys[]' <<< "${pkgs}")
     for cmd in ${cmds}; do
+      actual_pkg_name="${cmd}"
 
       # omit non-fun cmds
       case "${cmd}" in
         just|fzf|yq|jq|docker|curl)
           continue
           ;;
+        ponysay*)
+          # TODO: find a better solution for this
+          cmd=ponysay
+          ;;
       esac
 
-      info=$(jq -re --arg cmd "${cmd}" '.[$cmd]' <<< "${pkgs}")
+      info=$(jq -re --arg pkg "${actual_pkg_name}" '.[$pkg]' <<< "${pkgs}")
       description=$(jq -re '.description' <<< "${info}")
       echo "# ${description}"
       echo "[group('fun')]"
