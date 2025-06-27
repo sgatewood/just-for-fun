@@ -16,6 +16,12 @@ fzf:
   homepage: https://github.com/junegunn/fzf
   name: fzf-0.62.0
   version: 0.62.0
+jq:
+  changelog: https://github.com/jqlang/jq/releases/tag/jq-1.8.0
+  description: Lightweight and flexible command-line JSON processor
+  homepage: https://jqlang.github.io/jq/
+  name: jq-1.8.0
+  version: 1.8.0
 just:
   changelog: https://github.com/casey/just/blob/1.40.0/CHANGELOG.md
   description: Handy way to save and run project-specific commands
@@ -34,3 +40,9 @@ sl:
   homepage: http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html
   name: sl-5.05
   version: "5.05"
+yq:
+  changelog: https://github.com/mikefarah/yq/raw/v4.45.4/release_notes.txt
+  description: Portable command-line YAML processor
+  homepage: https://mikefarah.gitbook.io/yq/
+  name: yq-go-4.45.4
+  version: 4.45.4

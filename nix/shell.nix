@@ -4,8 +4,10 @@ pkgs.mkShell {
     asciiquarium
     cowsay
     fzf
+    jq
     just
     lolcat
     sl
+    yq-go
   ];
 }
